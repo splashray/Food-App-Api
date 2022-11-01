@@ -11,18 +11,18 @@ import cors from "cors";
 const app = express()
 dotenv.config()
 
-mongoose.connect(process.env.MONGODB_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-})
-.then(()=>{
-  console.log('Connected to mongodb.');
-})
-.catch((error)=>{
-  console.log(error.reason);
-})
+// mongoose.connect(process.env.MONGODB_URL, {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//     useCreateIndex: true,
+//     useFindAndModify: false
+// })
+// .then(()=>{
+//   console.log('Connected to mongodb.');
+// })
+// .catch((error)=>{
+//   console.log(error.reason);
+// })
 
 //middleware
 app.use(cors())

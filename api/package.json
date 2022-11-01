@@ -1,14 +1,16 @@
 {
-  "name": "api",
+  "name": "RaveGen",
   "version": "1.0.0",
-  "description": "",
+  "description": "A digital Ecom Store",
   "main": "index.js",
+  "type": "module",
+
   "scripts": {
-    "start": "npm app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "RaveGen",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
